@@ -1,0 +1,193 @@
+.App {
+  text-align: center;
+  height: 100%;
+  width:100%;
+  font-size: 16px;
+  background-image: url('../src/images/backgroundImage.png');
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* Header */
+
+#infoPage {
+  background-image: url('../src/images/backgroundImage.png');
+}
+
+.grid-container {
+  display:grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 10% 10% 10% 10% 10%;
+  text-align:justify;
+  align-items:center;
+  justify-content:center;
+  grid-auto-flow: row;
+}
+
+.dashboard-page {
+  display:flex; 
+  flex-direction:column;
+}
+
+.dashboard-undernav {
+  display:flex;
+  flex-direction: column;
+  width:98%; 
+  justify-content:center;
+  align-items:center;
+  margin-top:1%;
+  background-color:#092865;
+  margin-left:1%;
+  border-radius:15px 15px 0px 0px;
+}
+
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius:0px 0px 0px 0px
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.registerButn:hover {
+  filter:saturate(250%)
+}
+
+.loginButn:hover {
+  filter:saturate(250%)
+}
+
+
+.logArea {
+  width: 70%;
+}
+
+.logOut {
+  margin-left: 85%;
+  color: #141f35;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-decoration: underline;
+  cursor: pointer;
+  background: none;
+  border-style: none;
+  box-shadow: none;
+}
+
+.logOut:hover {
+  opacity: 65%;
+}
+
+.date {
+  font-family: 'Ubuntu', sans-serif;
+  color: #FFFFFF;
+  opacity: 76%;
+  font-size: 18;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.logEntry {
+  width: 80%;
+  word-wrap: wrap;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.logContent {
+  color: #ffffff;
+  opacity: 78%;
+  font-weight: 500;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.entryBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: justify;
+}
+
+.selections {
+  width: 100px;
+  font-size: 1rem;
+  padding: 10px;
+  background-color: #041330;
+  opacity: 55%;
+  border-radius: 15px;
+  color: #ffffff;
+}
+#navButn:disabled {
+  filter:opacity(75%)
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  bottom: 0;
+  width: 100%;
+  background-color: #092865;
+  height: 8vh;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 2px 2px 2px black;
+}
+
+.copyright {
+  color: #ffffff;
+  font-family: 'Roboto Slab', serif;
+  text-transform: uppercase;
+  font-size: 16;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

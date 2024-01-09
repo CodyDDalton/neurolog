@@ -1,0 +1,31 @@
+{
+  "name": "gloppapp",
+  "version": "1.0.0",
+  "description": "NodeJS Express Axios ReactJS GLOPPApp",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "nodemon"
+  },
+  "keywords": [
+    "NodeJS",
+    "Express",
+    "Axios",
+    "ReactJS",
+    "GLOPPAPP"
+  ],
+  "author": "Cody Dalton",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.5"
+  },
+  "devDependencies": {
+    "jest": "^29.1.2",
+    "nodemon": "^2.0.20"
+  }
+}
